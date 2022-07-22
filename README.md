@@ -6,3 +6,10 @@ cd single-src
 cmake .
 make
 ```
+
+multi-src 多源文件单目录编译
+```bash
+cd multi-src
+cmake .
+make
+```
