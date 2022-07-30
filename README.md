@@ -34,4 +34,5 @@ thread 线程包
 ```
 # thread.cxx
 g++ thread.cxx -lpthread
+g++ packaged_task.cxx -lpthread
 ```
