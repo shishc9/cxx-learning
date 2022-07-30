@@ -1,4 +1,4 @@
-# cmake learning repo
+# cxx learning repo
 
 single-src 单个源文件编译
 ```bash
@@ -28,4 +28,10 @@ math-option 多源文件多目录选择性编译
 cd math-option
 cmake .
 make
+```
+
+thread 线程包
+```
+# thread.cxx
+g++ thread.cxx -lpthread
 ```
