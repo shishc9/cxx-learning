@@ -24,6 +24,11 @@ auto func(T& val) -> decltype(foo(val)) {
     return foo(val);
 }
 
+template<typename T>
+auto func2(T& val) -> int {
+    return 0;
+}
+
 int main() {
 
     int a = 1;
@@ -34,6 +39,7 @@ int main() {
     /* c++11中增加了返回类型后置，将 decltype 和 auto 结合起来完成返回值类型推导 */
     
     // add3. add4
-    func(a);
+    //func(a);
+    std::cout << func2(a) << std::endl;
     return 0;
 }
